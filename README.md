@@ -39,6 +39,8 @@ top [옵션]
 - W: ~/.toprc에 설정된 내용을 저장한다.
 - q: top을 종료한다.
 
+참고 <https://terms.naver.com/entry.naver?docId=4125861&cid=59321&categoryId=59321>
+
 ## ps
 ### 개념설명
 
@@ -92,6 +94,8 @@ ps [옵션]
 * --info : 디버깅 정보를 출력한다.
 * --version : 버전 정보를 출력한다.
 
+참고 <https://terms.naver.com/entry.naver?docId=4125773&cid=59321&categoryId=59321>
+
 ## jobs
 ### 개념설명
 
@@ -109,6 +113,8 @@ jobs –x command [args]
 + -n : 프로세스 그룹 중에 대표 프로세스 ID를 출력한다.
 + -p : 각 프로세스 ID에 대해 한 행씩 출력한다.
 + command : 지정한 명령어를 실행한다.
+
+참고 <https://terms.naver.com/entry.naver?docId=4125682&cid=59321&categoryId=59321>
 
 ## kill
 ### 개념설명
@@ -128,3 +134,5 @@ kill-l[시그널]
 - -l : 시그널로 사용할 수 있는 시그널 이름들을 보여준다. 이것은 /usr/include/linux/signal.h 파일에서도 알 수 있다.
 - -1, : -HUP 프로세스를 재활성화한다.
 - -9 : 프로세스를 강제로 종료시킨다.
+
+참고 <https://terms.naver.com/entry.naver?docId=4125687&cid=59321&categoryId=59321>
