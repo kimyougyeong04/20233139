@@ -8,6 +8,8 @@
 
 top [옵션]
 
+![image](https://dbscthumb-phinf.pstatic.net/4938_000_1/20170705212456131_V9D3Q4JJL.jpg/ka38_331_i1.jpg?type=w575_fst_n&wm=Y)
+
 ### [옵션]
 
 + -b : 배치모드로 정보를 출력한다. 실시간 상화 대화형모드로 정보를 화면에 일렬로 출력한다.
@@ -49,6 +51,9 @@ top [옵션]
 ### 실행방법
 
 ps [옵션]
+
+![image](https://dbscthumb-phinf.pstatic.net/4938_000_1/20170705210350328_XVD2UXMLY.jpg/ka38_241_i1.jpg?type=w575_fst_n&wm=Y)
+
 
 ### [옵션]
 
@@ -107,6 +112,8 @@ jobs[옵션][jobID]
 
 jobs –x command [args]
 
+![image](https://dbscthumb-phinf.pstatic.net/4938_000_1/20170710154910976_RX87MMBQ3.jpg/ka38_149_i2.jpg?type=w575_fst_n&wm=Y)
+
 ### [옵션]
 
 + -l : 프로세스 그룹 ID를 state 필드 앞에 출력한다.
@@ -127,12 +134,16 @@ kill[-s시그널][-a]pid...
 
 kill-l[시그널]
 
+![image](https://dbscthumb-phinf.pstatic.net/4938_000_1/20170705204102763_BIV3YDDFB.jpg/ka38_154_i2.jpg?type=w575_fst_n&wm=Y)
+
 ### [옵션]
 
-- pid ··· : 종료시킬 프로세스 ID나 프로세스 이름을 지정한다.
-- -s : 전달할 시그널의 종류를 지정한다. 여기에는 시그널 이름이나 번호를 써준다.
-- -l : 시그널로 사용할 수 있는 시그널 이름들을 보여준다. 이것은 /usr/include/linux/signal.h 파일에서도 알 수 있다.
-- -1, : -HUP 프로세스를 재활성화한다.
-- -9 : 프로세스를 강제로 종료시킨다.
+[옵션] | 내용
+--|--
+pid ··· | 종료시킬 프로세스 ID나 프로세스 이름을 지정한다.
+-s | 전달할 시그널의 종류를 지정한다. 여기에는 시그널 이름이나 번호를 써준다.
+-l | 시그널로 사용할 수 있는 시그널 이름들을 보여준다. 이것은 /usr/include/linux/signal.h 파일에서도 알 수 있다.
+-1, | -HUP 프로세스를 재활성화한다.
+-9 | 프로세스를 강제로 종료시킨다.용
 
 참고 <https://terms.naver.com/entry.naver?docId=4125687&cid=59321&categoryId=59321>
